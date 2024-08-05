@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:  sans-serif;
+}
+
+.mainbox{
+    max-width: 1300px;
+    /* margin: 0 auto; */
+    
+} 
+
+
+header{
+    min-height: 70px;
+    max-width: 100vw;
+    background-color: #7171e7;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.logo{
+    min-width: 330px;
+    text-align: center;
+    margin-right: 17em;
+    
+}
+
+
+.span1{
+    color: aliceblue;
+}
+
+nav, a{
+    display: flex;
+   gap: 5em;
+   color: white;
+   text-decoration: none;
+   font-size: large;
+   margin-right: 2em;
+}
+
+.navanchor:hover{
+    color: rgb(23, 221, 23);
+    font-weight: bold;
+    text-shadow: 1px 2px rgb(255, 255, 255);
+    
+}
+
+
+
+
+.homesection{
+    min-height: 85vh;
+    max-width: 100vw;
+    margin-top: 70px;
+    background-image: url(./Assets/galaxy01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home1{
+
+    max-width: 50%;
+    height: 60%;
+   
+    
+}
+
+
+
+.homeheading{
+    color: white;
+}
+
+.para1{
+    color: rgb(181, 181, 181);
+    margin-top: 2em;
+}
+
+
+.button1{
+    height:50px ;
+    width: 200px;
+    margin-top: 1em;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    background-color: rgba(240, 248, 255, 0.009);
+    color: white;
+}
+
+
+.green{
+   background-color:#7171e7 ;
+}
+
+.button1:hover{
+background-color: rgb(21, 196, 21);
+
+}
+
+.green:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px 12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgb(234, 225, 225) 0px 3px 5px;
+}
+
+
+
+/* Aboutsection */
+
+
+.aboutsection{
+    min-height: 90vh;
+   max-width: 100vw;
+   margin-bottom: 3em;
+   background-color: white;
+   border-bottom: 1px solid black;
+   
+}
+
+.flask{
+    font-size: 27px;
+}
+
+.iconinline{
+    display: inline-block;
+
+}
+
+.innerpic{
+    width: 50%;
+   
+   
+}
+
+
+.phones{
+    max-width: 85%;
+    height: 90%;
+}
+
+.aboutinfo{
+    padding: 2em;
+    width: 50%;
+    padding-top: em;
+    
+}
+
+.innerpara{
+    margin-top: 1em;
+    color: rgb(75, 75, 75);
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+.gallerysection{
+min-height: 80vh;
+max-width: 100vw;
+background-color: white;
+border-bottom: 1px solid black;
+
+
+}
+
+.galleryheading{
+    text-align: center;
+    margin-top: 1em;
+    
+    
+}
+
+.span2{
+    color: #7171e7;
+}
+
+
+.flexbox{
+    display: flex;
+
+}
+
+.galleryinfo{
+    width: 50%;
+    padding: 2em;
+}
+
+.phone{
+    margin-top: 1em;
+}
+
+.para3{
+    padding-top: 1em;
+   
+}
+
+
+.galleryphone{
+width: 300px;
+height: 400px;
+}
+
+
+.black{
+    color: black;
+    border: 2px solid black;
+}
+
+.black:hover{
+    background-color: rgb(21, 196, 21);
+    color: white;
+    border: none;
+
+}
+
+/* contact section */
+
+.bgimg{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://wallpapers.com/images/featured/new-york-city-5oaa14h4mw6w3o71.jpg);
+}
+
+.box2{
+   width: 100%;
+    height: 55%;
+    margin-bottom: 2em;
+   
+}
+
+.flexbox2{
+    color: white;  
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.7em;
+    font-weight:900;
+   
+
+}
+
+.galleryheading2{
+    padding-top: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.para2{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 2em;
+}
+
+
+
+.left{
+   margin-left: 2em;
+}
+
+.lefte{
+    margin-left: 1.1em;
+}
+
+.down{
+    font-size: 1.8em;
+    margin-left: 1.1em;
+}
+
+.heart{
+    font-size: 1.8em;
+    margin-left: 1.4em;
+}
+
+.rate{
+    font-size: 1.8em;
+    margin-left: 0.9em;
+}
+
+.box3{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+
+.para6{
+    text-align: center;
+    padding: 1em 0 0 0 ;
+}
+
+.para4{
+    color: white;
+    text-align: justify;
+    padding: 2em;
+}
+
+.heading{
+    text-align: center;
+    color:#9a9af0;
+    padding: 1em 0 1em 0;
+}
+
+.box{
+    width: 100%;
+    height: 50%;
+   
+}
+
+.about2{
+background-color: #cecef9;
+}
+
+
+.btn{
+    border: 2px solid black;
+    color: black;
+}
+
+.btn:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+
+.center{
+   margin-left: 40em;
+    margin-bottom: 2em;
+}
+
+
+
+/* gallery */
+
+.gallery{
+    max-width: 100%;
+    min-height: 80%;
+    background-color: white;
+}
+
+.galleryhead{
+    color: #7171e7;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.cam{
+    color: black;
+    font-size: 1.4em;
+}
+
+.gallery{
+    min-height: 66vh;
+    width: 100%;
+}
+
+
+.galleryrow1{
+    display: flex; 
+    justify-content: center;
+    /* gap: 2em; */
+    flex-wrap: wrap;
+}
+
+.img1{
+    width: 200px;
+     height: 200px;
+    clip-path: polygon(50% 0%, 100% 38%,
+    82% 100%, 18% 100%, 0% 38%);
+   
+}
+
+.img1:hover{
+    scale: 1.1;
+
+}
+
+
+.imgborder{
+    margin-bottom: 2em;
+}
+
+/* contact */
+
+.contact{
+    min-height: 100vh;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://t3.ftcdn.net/jpg/03/65/27/86/360_F_365278674_WY1MIMXRGvum3OuEfuVvT5hMVVQDgGe3.jpg);
+}
+
+.form{
+     display: flex;
+    min-height: 470px ;
+    width:900px ;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.sideone{
+    
+    height: 100%;
+    width: 50%;
+    background-color:#070743;
+    color: #ffffff;
+   
+}
+
+
+.two{
+    width: 50%;
+    height: 100%;
+    padding: 2em;
+    background-color: #ffffff;
+    color: black;
+    
+
+}
+.name{
+ margin: 6em 0 0 5em;
+ border: none;
+ outline: none;
+ border-bottom: 2px solid rgb(255, 255, 255);
+ background-color:#070743;
+ color: #ffffff;
+ width: 270px;
+}
+
+.top{
+    margin-top: 3em;
+   
+}
+
+.left{
+    margin: 1em 0 0 2em;
+}
+
+.align{
+    margin: 3em 0 5em 8em;
+    background-color: #070743;
+}
+
+.text{
+    width: 270px;
+}
+
+
+
+.formspace{
+    line-height: 3em;
+}
+
+.buttom{
+    margin-bottom: 2.7em;
+}
+
+footer{
+    min-height: 66vh;
+    max-width: 100vw;
+    background-color: #070743;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer2{
+    height: 50px;
+    max-width: 100%;
+    background-color: #070743;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.quik{
+    
+}
+
+.dot{
+    list-style-type: none;
+    line-height: 2em;
+}
+
+
+
+.than{
+    font-family: serif;
+    line-height: 2em;
+}
+
+.font{
+    font-family: serif;
+}
+
+
+.phone{
+    line-height: 1em;
+   
+}
+
+
+/* media queries */
+
+@media only screen and (max-width:1015px){
+     
+    nav{
+       display: none;
+    }
+
+    .flexbox{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .home1{
+        margin-left: 2em;
+        /* margin-top: -5em; */
+
+    }
+
+    .center{
+       margin-left: 3em;
+    }
+
+    
+    .form{
+        width: 420px;
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sideone, .two{
+        width: 100%;
+        height: 100%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       padding-left: 2em;
+      
+    }
+
+    .line{
+       margin-top: 2em;
+       margin-bottom: 1em;
+    }
+
+
+}
+
+@media only screen and (max-width:735px){
+
+.homesection{
+    display: flex;
+    flex-direction: column;
+}
+
+.home1{
+   padding-top: 5em;
+   max-width: 70%;
+}
+
+@media only screen and (max-width:600px){
+
+
+    .innerpic{
+        width: 90%;
+        margin-left: 1em;
+    }
+
+
+    .aboutinfo{
+        width: 90%;
+    }
+
+
+
+    .phones{
+        width: 100%;
+        height: 100%;
+    }
+
+
+.phone1{
+    max-width: 90%;
+    height: 50%;
+    margin-left: 1em;
+    
+}
+
+
+.flexbox2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    justify-content:space-around;
+    gap: 2em;
+}
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width:535px){
+
+.logo{
+margin-left: -2em;
+}
+
+.button1{
+    display: block;
+}
+
+    .form{
+        width: 350px;
+    }
+
+
+    .sideone, .two{
+        /* width: 100%; */
+    }
+
+
+    .name, .text{
+        width: 200px;
+ }
+
+    .align{
+        margin-left:5.5em;
+    } 
+
+}
+
+
+@media only screen and (max-width:345px){
+
+
+    .home1{
+        margin-right: 1em;
+        
+    }
+
+    .name{
+        margin-left: 3em;
+    }
+
+
+    .align{
+        margin-left: 3em;
+    }
+
+    
+
+}
